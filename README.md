@@ -17,4 +17,3 @@ vallen er allemaal bollen naar beneden met een tijdsinterval van 2 seconden. De 
 OUR GAME
 ![alt text][background]
 [background]: https://github.com/devinehowest/COD1819_WN_15/blob/development/src/assets/fallingeggs.jpg background"
-# fallingeggs
