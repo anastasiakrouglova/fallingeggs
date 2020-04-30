@@ -1,0 +1,71 @@
+@import './css/reset.css';
+@import './css/vars.css';
+@import './css/header.css';
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* @font-face {
+  font-family: "Krungthep";
+  src: url("../assets/fonts/frigate/frigate.woff2") format("woff2"),
+    url("../assets/fonts/frigate/frigate.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* stylelint-disable */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  visibility: hidden;
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  width: 15rem;
+  z-index: 1000;
+}
+
+.overlay__nameinput {
+  width: 27.8rem;
+  height: 7rem;
+  padding: 1rem;
+  margin-top: 27.3rem;
+  margin-left: 25rem;
+  border: none;
+  background-color: #ffe8b2;
+  font-family: krunghep, helvetica;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.overlay__nameinput {
+  font-family: 'Krungthep';
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.overlay__nameinput:focus {
+  outline: none;
+}
+
+.scorebord {
+  color: orange;
+  font-size: 5rem;
+  margin-left: 15rem;
+
+}
